@@ -10,6 +10,7 @@
         let
           pkgs = nixpkgs.legacyPackages.${system};
 
+          callPackage = pkgs.callPackage;
         in
         {
 
