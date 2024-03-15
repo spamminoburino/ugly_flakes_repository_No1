@@ -9,6 +9,6 @@ pkgs.mkShell {
   ];
  
  packages = [
-    nodejs_21
+    pkgs.nodejs_21
   ];
 }
